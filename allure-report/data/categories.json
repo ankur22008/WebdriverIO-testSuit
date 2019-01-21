@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 17 to deeply equal 18",
+      "children" : [ {
+        "name" : "the variable should contain 18",
+        "uid" : "69f38be7e7e5d5d9",
+        "parentUid" : "670f183e640202c9a4116ea169e6373e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543975951533,
+          "stop" : 1543975951534,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "670f183e640202c9a4116ea169e6373e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

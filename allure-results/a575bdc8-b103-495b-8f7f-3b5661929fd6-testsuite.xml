@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543975951527' stop='1543975951527'>
+    <name>Simple maths much more complex stuff</name>
+    <title>Simple maths much more complex stuff</title>
+    <test-cases>
+        <test-case start='1543975951527' status='passed' stop='1543975951527'>
+            <name>a variable set to 100</name>
+            <title>a variable set to 100</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='much more complex stuff'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testfeature/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543975951527' status='passed' stop='1543975951527'>
+            <name>I increment the variable by 5</name>
+            <title>I increment the variable by 5</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='much more complex stuff'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testfeature/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543975951527' status='passed' stop='1543975951527'>
+            <name>the variable should contain 105</name>
+            <title>the variable should contain 105</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='much more complex stuff'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testfeature/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[@id=\"js-filterOptins\"]/div/div/ul/li"
+}

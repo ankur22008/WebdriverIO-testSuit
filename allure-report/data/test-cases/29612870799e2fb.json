@@ -1,0 +1,61 @@
+{
+  "uid" : "29612870799e2fb",
+  "name" : "the variable should contain 105",
+  "fullName" : "Simple maths much more complex stuff.the variable should contain 105",
+  "historyId" : "20766c53c109d80a88eca92d2559a2e0",
+  "time" : {
+    "start" : 1543975901625,
+    "stop" : 1543975901625,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "the variable should contain 105"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29612870799e2fb.json",
+  "parameterValues" : [ "chrome" ]
+}

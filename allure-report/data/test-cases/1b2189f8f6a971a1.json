@@ -1,0 +1,87 @@
+{
+  "uid" : "1b2189f8f6a971a1",
+  "name" : "I increment the variable by 5",
+  "fullName" : "Simple maths much more complex stuff.I increment the variable by 5",
+  "historyId" : "57172586547e19dd2742f6156390b62b",
+  "time" : {
+    "start" : 1543975951533,
+    "stop" : 1543975951533,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "I increment the variable by 5"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "952fa2befec9ae67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543975951527,
+        "stop" : 1543975951527,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c9be0882ee65fe6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543975901632,
+        "stop" : 1543975901632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d3278de1a4f7868",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543975901625,
+        "stop" : 1543975901625,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b2189f8f6a971a1.json",
+  "parameterValues" : [ "chrome" ]
+}

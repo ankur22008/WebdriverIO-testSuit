@@ -1,0 +1,61 @@
+{
+  "uid" : "1102a57fad4ff61c",
+  "name" : "I increment the variable by 1",
+  "fullName" : "Simple maths easy maths.I increment the variable by 1",
+  "historyId" : "b3909a51008ca28f06aa0523e5829241",
+  "time" : {
+    "start" : 1543975901617,
+    "stop" : 1543975901617,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "easy maths"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testMethod",
+    "value" : "I increment the variable by 1"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1102a57fad4ff61c.json",
+  "parameterValues" : [ "chrome" ]
+}

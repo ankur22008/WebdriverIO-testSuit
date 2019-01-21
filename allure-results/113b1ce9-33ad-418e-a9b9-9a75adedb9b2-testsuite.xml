@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546582752238' stop='1546582760316'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546582752240' status='broken' stop='1546582760316'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546582752242' status='passed' stop='1546582756874'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/url</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/url</title>
+                    <attachments>
+                        <attachment title='Request' source='27d81540-694f-4de5-a860-7f6c6c126203-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='d264bd1e-fd46-4fd4-bd24-ef1464d43021-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582756875' status='passed' stop='1546582758113'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b60d00e3-a0e7-4b6f-976f-d18e6881ca24-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='c0aea480-439f-4cad-8ee0-96c8690bfe47-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582758115' status='passed' stop='1546582758256'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element/0.01174195995559435-1/click</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element/0.01174195995559435-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f32c29d3-8866-4b43-b5f2-897cc1a2f7b9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582759265' status='passed' stop='1546582759278'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0391ac58-8b3e-4bf7-ace1-306b6a94f154-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='77ba2ffc-171f-4e97-979a-7b9de5a64bc2-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582759281' status='passed' stop='1546582759448'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element/0.01174195995559435-1/value</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element/0.01174195995559435-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='01483ecf-5a9d-4865-a3df-8c2f00087e3a-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='cb0b60c1-3bdf-4cd9-ab55-1d316b833baa-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582759449' status='passed' stop='1546582759603'>
+                    <name>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</name>
+                    <title>POST /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/element</title>
+                    <attachments>
+                        <attachment title='Request' source='38d2b2e9-95db-41a9-bb76-39277e381c19-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='081ef7ad-4001-42b4-82fc-2d3a9737f058-attachment.json' type='application/json' size='632'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546582759604' status='broken' stop='1546582760316'>
+                    <name>GET /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/screenshot</name>
+                    <title>GET /wd/hub/session/d25d8737afdaa49f95c6b7fd575d99b7/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6b7c1c3a-842a-4752-b6f6-886a5c670d80-attachment.png' type='image/png' size='919758'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("*=Melbourne, Australia").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("*=Melbourne, Australia").
+                    at click() - index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

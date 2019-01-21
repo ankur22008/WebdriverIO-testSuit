@@ -1,0 +1,152 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546581362229' stop='1546581369931'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546581362230' status='broken' stop='1546581369930'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546581362232' status='passed' stop='1546581368416'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/url</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7f985115-7e08-4f21-9851-5e8596e4c3d0-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='1edaaf3b-6877-4cf5-b830-0720e2cad805-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581368418' status='passed' stop='1546581368448'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3eb6838b-95b4-4238-89f1-126c8f148500-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='06dc44d0-3e6d-44ce-8ead-5e46808023af-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581368451' status='passed' stop='1546581368872'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element/0.5586740106173451-1/value</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element/0.5586740106173451-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='08c5c726-f301-48f1-b0c1-91b800b89fa0-attachment.json' type='application/json' size='389'/>
+                        <attachment title='Response' source='5babd3c2-ae40-4ba8-956d-e3657946ac20-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581368874' status='passed' stop='1546581368889'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='38db9dfc-5df6-401c-9844-b787a7b50325-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='daad74b6-910e-4986-bed4-3c81f7cdbca8-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581368891' status='passed' stop='1546581369082'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element/0.5586740106173451-2/value</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element/0.5586740106173451-2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3eca116d-2d3d-4fc1-978b-c3e50b30dc8a-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='9dc2da92-14af-479a-874a-11a9c7b85b9f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581369083' status='passed' stop='1546581369099'>
+                    <name>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</name>
+                    <title>POST /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8d6f19e9-c39e-4d03-a7d3-9dc4313d5ee8-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='b8feaa86-ad52-47d2-b9b2-5c78fbaa14f8-attachment.json' type='application/json' size='620'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581369101' status='broken' stop='1546581369930'>
+                    <name>GET /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/screenshot</name>
+                    <title>GET /wd/hub/session/8303c646795d59c8c72ea016e0513f6f/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1d83de14-1ac6-493f-83be-3e19667038b8-attachment.png' type='image/png' size='1044087'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//input[@id="searchBtn"]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//input[@id="searchBtn"]").
+                    at click() - index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546581369930' status='pending' stop='1546581369930'>
+            <name>I increment the variable by 1</name>
+            <title>I increment the variable by 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1546581369931' status='broken' stop='1546581369931'>
+            <name>I increment thnpm instae abc</name>
+            <title>I increment thnpm instae abc</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I increment thnpm instae abc" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546581369931' status='pending' stop='1546581369931'>
+            <name>the variable should contain 2</name>
+            <title>the variable should contain 2</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

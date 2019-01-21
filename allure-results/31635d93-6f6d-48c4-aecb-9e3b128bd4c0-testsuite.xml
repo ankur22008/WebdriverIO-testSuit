@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546584982344' stop='1546584989363'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546584982345' status='broken' stop='1546584989363'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546584982347' status='passed' stop='1546584988473'>
+                    <name>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/url</name>
+                    <title>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ac360b13-489a-4dfc-8df9-781136d0ccd7-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='9f2b3c97-54d4-42b6-b1ef-6c9180212a5a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546584988475' status='passed' stop='1546584988492'>
+                    <name>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/element</name>
+                    <title>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='50125600-e528-4916-b702-2fd09b80cfce-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='3dc62833-7094-4dca-8c3c-76c114ac071a-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546584988495' status='passed' stop='1546584988596'>
+                    <name>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/element/0.0662883000882839-1/click</name>
+                    <title>POST /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/element/0.0662883000882839-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='c3e77350-16dc-40cf-b014-9d7d08a6bdea-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546584988598' status='broken' stop='1546584989363'>
+                    <name>GET /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/screenshot</name>
+                    <title>GET /wd/hub/session/0d1eb8e84982b58f5ee5a3965ec60ef8/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6cc0cc58-7140-4feb-9016-de6d85e51998-attachment.png' type='image/png' size='840825'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>number or type of arguments don't agree with addValue command</message>
+                <stack-trace>Error: number or type of arguments don't agree with addValue command
+                    at addValue("Melbourne") - index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

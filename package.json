@@ -1,0 +1,25 @@
+{
+  "name": "cucum",
+  "version": "1.0.0",
+  "description": "ankur",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "AJ",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.3",
+    "klassi-cucumber-js": "^2.3.1",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "webdriverio": "^4.14.1",
+    "webdriverio-cucumber-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-selenium-standalone-service": "0.0.11"
+  }
+}

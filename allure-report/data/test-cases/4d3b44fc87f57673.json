@@ -1,0 +1,63 @@
+{
+  "uid" : "4d3b44fc87f57673",
+  "name" : "a variable set to 12",
+  "fullName" : "Simple maths much more complex stuff.a variable set to 12",
+  "historyId" : "cb96a0876247e795ba56aff5fa54351",
+  "time" : {
+    "start" : 1543975901632,
+    "stop" : 1543975901632,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'setTo' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'setTo' of undefined\n                    at CustomWorld.<anonymous> (/Users/749457/cucumberTest/features/step-definition/my_steps.js:64:10)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/749457/cucumberTest/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "a variable set to 12"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d3b44fc87f57673.json",
+  "parameterValues" : [ "chrome" ]
+}

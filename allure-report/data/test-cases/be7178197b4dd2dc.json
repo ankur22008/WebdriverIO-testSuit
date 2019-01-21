@@ -1,0 +1,72 @@
+{
+  "uid" : "be7178197b4dd2dc",
+  "name" : "a variable set to 1",
+  "fullName" : "Simple maths easy maths.a variable set to 1",
+  "historyId" : "74b47613ab0f8114658e105aff99f8dd",
+  "time" : {
+    "start" : 1543975951516,
+    "stop" : 1543975951518,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "easy maths"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testMethod",
+    "value" : "a variable set to 1"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae86724afe0db318",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'setTo' of undefined",
+      "time" : {
+        "start" : 1543975901613,
+        "stop" : 1543975901617,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be7178197b4dd2dc.json",
+  "parameterValues" : [ "chrome" ]
+}

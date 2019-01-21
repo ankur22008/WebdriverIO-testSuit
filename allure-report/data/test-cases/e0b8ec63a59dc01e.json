@@ -1,0 +1,72 @@
+{
+  "uid" : "e0b8ec63a59dc01e",
+  "name" : "a variable set to 99",
+  "fullName" : "Simple maths much more complex stuff.a variable set to 99",
+  "historyId" : "338e736cac45e3f83554e9a96597f334",
+  "time" : {
+    "start" : 1543975951530,
+    "stop" : 1543975951530,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "a variable set to 99"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f7419d6fe909058",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'setTo' of undefined",
+      "time" : {
+        "start" : 1543975901629,
+        "stop" : 1543975901629,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0b8ec63a59dc01e.json",
+  "parameterValues" : [ "chrome" ]
+}

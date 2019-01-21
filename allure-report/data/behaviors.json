@@ -1,0 +1,149 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Simple maths",
+    "children" : [ {
+      "name" : "easy maths",
+      "children" : [ {
+        "name" : "a variable set to 1",
+        "uid" : "be7178197b4dd2dc",
+        "parentUid" : "cb2407d8cf57514c3e8c61f212930717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951516,
+          "stop" : 1543975951518,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I increment the variable by 1",
+        "uid" : "520f994d85a6f393",
+        "parentUid" : "cb2407d8cf57514c3e8c61f212930717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951518,
+          "stop" : 1543975951519,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "the variable should contain 2",
+        "uid" : "76d669031ecda4cf",
+        "parentUid" : "cb2407d8cf57514c3e8c61f212930717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951519,
+          "stop" : 1543975951520,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "cb2407d8cf57514c3e8c61f212930717"
+    }, {
+      "name" : "much more complex stuff",
+      "children" : [ {
+        "name" : "the variable should contain 105",
+        "uid" : "3d786ec355eb8473",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951527,
+          "stop" : 1543975951527,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "a variable set to 100",
+        "uid" : "40e2bc52d0b61d59",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951527,
+          "stop" : 1543975951527,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "the variable should contain 1333",
+        "uid" : "7172d3f20bf73ab0",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951530,
+          "stop" : 1543975951530,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I increment the variable by 1234",
+        "uid" : "d560e440275e3780",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951530,
+          "stop" : 1543975951530,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "a variable set to 99",
+        "uid" : "e0b8ec63a59dc01e",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951530,
+          "stop" : 1543975951530,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "I increment the variable by 5",
+        "uid" : "1b2189f8f6a971a1",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951533,
+          "stop" : 1543975951533,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "the variable should contain 18",
+        "uid" : "69f38be7e7e5d5d9",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543975951533,
+          "stop" : 1543975951534,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "a variable set to 12",
+        "uid" : "200f8c822ccb17ed",
+        "parentUid" : "79b9cae9864677362bf96886bb96c16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1543975951533,
+          "stop" : 1543975951533,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "79b9cae9864677362bf96886bb96c16b"
+    } ],
+    "uid" : "694bfff0f038d0e2cd2a807fe6994c5b"
+  } ]
+}

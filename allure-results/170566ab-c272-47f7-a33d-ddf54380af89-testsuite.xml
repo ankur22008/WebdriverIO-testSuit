@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546581223250' stop='1546581231226'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546581223252' status='broken' stop='1546581231225'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546581223254' status='passed' stop='1546581231183'>
+                    <name>POST /wd/hub/session/3a01aaf35c6c2d4ed4798023e1a5908a/url</name>
+                    <title>POST /wd/hub/session/3a01aaf35c6c2d4ed4798023e1a5908a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a23874a0-931e-4d76-bbfa-ed47d00bca68-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='fa4073d9-c976-4cc2-a431-79442ca071f6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546581231186' status='passed' stop='1546581231221'>
+                    <name>POST /wd/hub/session/3a01aaf35c6c2d4ed4798023e1a5908a/element</name>
+                    <title>POST /wd/hub/session/3a01aaf35c6c2d4ed4798023e1a5908a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2aecf5a8-f3ac-45f6-a5c5-239a8f402cb7-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='4fa2598e-f346-462a-9378-7334a58a118c-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>fromElem is not a function</message>
+                <stack-trace>TypeError: fromElem is not a function
+                    at CustomWorld.&lt;anonymous> (/Users/749457/cucumberTest/features/step-definition/my_steps.js:66:62)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/749457/cucumberTest/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546581231225' status='pending' stop='1546581231225'>
+            <name>I increment the variable by 1</name>
+            <title>I increment the variable by 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1546581231225' status='broken' stop='1546581231226'>
+            <name>I increment thnpm instae abc</name>
+            <title>I increment thnpm instae abc</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I increment thnpm instae abc" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546581231226' status='pending' stop='1546581231226'>
+            <name>the variable should contain 2</name>
+            <title>the variable should contain 2</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

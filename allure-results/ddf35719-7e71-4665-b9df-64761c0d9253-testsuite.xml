@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546403719856' stop='1546403722557'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546403719857' status='passed' stop='1546403722555'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='0-0'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"myChromeBrowser":{"desiredCapabilities":{"browserName":"chrome"}},"myFirefoxBrowser":{"desiredCapabilities":{"browserName":"firefox"}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1546403722555' status='passed' stop='1546403722555'>
+            <name>I increment the variable by 1</name>
+            <title>I increment the variable by 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='0-0'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"myChromeBrowser":{"desiredCapabilities":{"browserName":"chrome"}},"myFirefoxBrowser":{"desiredCapabilities":{"browserName":"firefox"}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1546403722555' status='broken' stop='1546403722556'>
+            <name>I increment thnpm instae abc</name>
+            <title>I increment thnpm instae abc</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='0-0'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"myChromeBrowser":{"desiredCapabilities":{"browserName":"chrome"}},"myFirefoxBrowser":{"desiredCapabilities":{"browserName":"firefox"}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I increment thnpm instae abc" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546403722556' status='pending' stop='1546403722557'>
+            <name>the variable should contain 2</name>
+            <title>the variable should contain 2</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='0-0'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"myChromeBrowser":{"desiredCapabilities":{"browserName":"chrome"}},"myFirefoxBrowser":{"desiredCapabilities":{"browserName":"firefox"}}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

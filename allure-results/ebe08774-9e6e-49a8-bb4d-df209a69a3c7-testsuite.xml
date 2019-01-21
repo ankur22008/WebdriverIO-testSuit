@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546572254936' stop='1546572261150'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1546572254937' status='passed' stop='1546572261148'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1546572254940' status='passed' stop='1546572260833'>
+                    <name>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/url</name>
+                    <title>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9bc1ce04-ae41-4592-be16-984e25b2baf1-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='eb1af25e-8b04-47c2-9c6a-720ec7ed509c-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546572260837' status='passed' stop='1546572260899'>
+                    <name>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element</name>
+                    <title>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='174c3d60-c001-4a80-8f1d-5a745966860e-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='8e4e16e7-20bb-4977-bc9d-b635d406d0f0-attachment.json' type='application/json' size='226'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546572260903' status='passed' stop='1546572260998'>
+                    <name>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element/a26fcbe2-eb0c-c444-b437-3e8fa34505af/value</name>
+                    <title>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element/a26fcbe2-eb0c-c444-b437-3e8fa34505af/value</title>
+                    <attachments>
+                        <attachment title='Request' source='947ba56c-d518-4070-bdbc-6833c5c6d136-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='5d93065b-0e01-4b75-b4c8-b7e63b9ca2c0-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546572261001' status='passed' stop='1546572261022'>
+                    <name>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element</name>
+                    <title>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8f0b7a8c-c79e-4f06-bc56-eb6c3b5d4d80-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='0a6460c9-f914-4c09-bd8a-5f0f9f910b47-attachment.json' type='application/json' size='226'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546572261024' status='passed' stop='1546572261144'>
+                    <name>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element/4ae9edaf-475a-c948-af93-f40117285eaf/value</name>
+                    <title>POST /wd/hub/session/95569049-25b7-1746-9c46-58afd5f802d8/element/4ae9edaf-475a-c948-af93-f40117285eaf/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3bffb04e-f2b4-4c8e-b519-36d41e321328-attachment.json' type='application/json' size='165'/>
+                        <attachment title='Response' source='549308b6-084e-47f7-b27f-8fb9a34df471-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1546572261148' status='passed' stop='1546572261149'>
+            <name>I increment the variable by 1</name>
+            <title>I increment the variable by 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1546572261149' status='broken' stop='1546572261150'>
+            <name>I increment thnpm instae abc</name>
+            <title>I increment thnpm instae abc</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I increment thnpm instae abc" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546572261150' status='pending' stop='1546572261150'>
+            <name>the variable should contain 2</name>
+            <title>the variable should contain 2</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

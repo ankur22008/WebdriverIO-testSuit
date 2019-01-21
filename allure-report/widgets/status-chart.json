@@ -1,0 +1,111 @@
+[ {
+  "uid" : "7172d3f20bf73ab0",
+  "name" : "the variable should contain 1333",
+  "time" : {
+    "start" : 1543975951530,
+    "stop" : 1543975951530,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d560e440275e3780",
+  "name" : "I increment the variable by 1234",
+  "time" : {
+    "start" : 1543975951530,
+    "stop" : 1543975951530,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b2189f8f6a971a1",
+  "name" : "I increment the variable by 5",
+  "time" : {
+    "start" : 1543975951533,
+    "stop" : 1543975951533,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69f38be7e7e5d5d9",
+  "name" : "the variable should contain 18",
+  "time" : {
+    "start" : 1543975951533,
+    "stop" : 1543975951534,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d786ec355eb8473",
+  "name" : "the variable should contain 105",
+  "time" : {
+    "start" : 1543975951527,
+    "stop" : 1543975951527,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "200f8c822ccb17ed",
+  "name" : "a variable set to 12",
+  "time" : {
+    "start" : 1543975951533,
+    "stop" : 1543975951533,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40e2bc52d0b61d59",
+  "name" : "a variable set to 100",
+  "time" : {
+    "start" : 1543975951527,
+    "stop" : 1543975951527,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be7178197b4dd2dc",
+  "name" : "a variable set to 1",
+  "time" : {
+    "start" : 1543975951516,
+    "stop" : 1543975951518,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76d669031ecda4cf",
+  "name" : "the variable should contain 2",
+  "time" : {
+    "start" : 1543975951519,
+    "stop" : 1543975951520,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "520f994d85a6f393",
+  "name" : "I increment the variable by 1",
+  "time" : {
+    "start" : 1543975951518,
+    "stop" : 1543975951519,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0b8ec63a59dc01e",
+  "name" : "a variable set to 99",
+  "time" : {
+    "start" : 1543975951530,
+    "stop" : 1543975951530,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

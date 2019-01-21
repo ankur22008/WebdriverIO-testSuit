@@ -1,0 +1,71 @@
+{
+  "uid" : "76d669031ecda4cf",
+  "name" : "the variable should contain 2",
+  "fullName" : "Simple maths easy maths.the variable should contain 2",
+  "historyId" : "bb73b01107f800623873a60b718d5fde",
+  "time" : {
+    "start" : 1543975951519,
+    "stop" : 1543975951520,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "easy maths"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "testMethod",
+    "value" : "the variable should contain 2"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths easy maths"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4140e07b50faca73",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543975901618,
+        "stop" : 1543975901618,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76d669031ecda4cf.json",
+  "parameterValues" : [ "chrome" ]
+}

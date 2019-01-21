@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547178277800' stop='1547178277808'>
+    <name>Simple maths easy maths</name>
+    <title>Simple maths easy maths</title>
+    <test-cases>
+        <test-case start='1547178277802' status='broken' stop='1547178277807'>
+            <name>a variable set to 1</name>
+            <title>a variable set to 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>window is not defined</message>
+                <stack-trace>ReferenceError: window is not defined
+                    at World.Given (/Users/749457/cucumberTest/features/step-definition/my_steps.js:63:1)
+                    at /Users/749457/cucumberTest/node_modules/wdio-sync/build/index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (/Users/749457/cucumberTest/node_modules/core-js/library/modules/_export.js:36:28)
+                    at World.executeSync (/Users/749457/cucumberTest/node_modules/wdio-sync/build/index.js:588:12)
+                    at /Users/749457/cucumberTest/node_modules/wdio-sync/build/index.js:210:29</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1547178277807' status='pending' stop='1547178277807'>
+            <name>I increment the variable by 1</name>
+            <title>I increment the variable by 1</title>
+            <labels>
+                <label name='feature' value='Simple maths'/>
+                <label name='story' value='easy maths'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/749457/cucumberTest/features/testcucum.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

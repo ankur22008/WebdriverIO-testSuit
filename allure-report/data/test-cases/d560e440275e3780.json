@@ -1,0 +1,71 @@
+{
+  "uid" : "d560e440275e3780",
+  "name" : "I increment the variable by 1234",
+  "fullName" : "Simple maths much more complex stuff.I increment the variable by 1234",
+  "historyId" : "aff223a21dba378719d1755f257ce9f7",
+  "time" : {
+    "start" : 1543975951530,
+    "stop" : 1543975951530,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "I increment the variable by 1234"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23b9c003c3ec2e29",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543975901629,
+        "stop" : 1543975901629,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d560e440275e3780.json",
+  "parameterValues" : [ "chrome" ]
+}

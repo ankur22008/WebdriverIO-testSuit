@@ -1,0 +1,77 @@
+{
+  "uid" : "69f38be7e7e5d5d9",
+  "name" : "the variable should contain 18",
+  "fullName" : "Simple maths much more complex stuff.the variable should contain 18",
+  "historyId" : "4b16c2196d39ba5332bcabab81dae16a",
+  "time" : {
+    "start" : 1543975951533,
+    "stop" : 1543975951534,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 17 to deeply equal 18",
+  "statusTrace" : "AssertionError: expected 17 to deeply equal 18\n                    at CustomWorld.<anonymous> (/Users/749457/cucumberTest/features/step-definition/my_steps.js:72:30)\n                    at new Promise (<anonymous>)\n                    at new F (/Users/749457/cucumberTest/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Simple maths"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "much more complex stuff"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "testMethod",
+    "value" : "the variable should contain 18"
+  }, {
+    "name" : "package",
+    "value" : "Simple maths much more complex stuff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "942a41653a648b94",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1543975901632,
+        "stop" : 1543975901632,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "69f38be7e7e5d5d9.json",
+  "parameterValues" : [ "chrome" ]
+}
