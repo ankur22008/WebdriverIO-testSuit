@@ -105,7 +105,7 @@ exports.config = {
     logLevel: 'verbose',
     //
     // Enables colors for log output.
-    coloredLogs: true,
+    coloredLogs: false,
     //
     // Warns when a deprecated command is used
     deprecationWarnings: true,
