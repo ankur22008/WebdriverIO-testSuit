@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "ankur",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
-  },
+  
   "author": "AJ",
   "license": "ISC",
   "dependencies": {
@@ -27,6 +25,7 @@
   "scripts": {
 		"start": "selenium-standalone start",
 		"selenium": "selenium-standalone"
+	        "test": "./node_modules/.bin/wdio wdio.conf.js"
 	}
 
 	
