@@ -26,7 +26,7 @@
   ,
   "scripts": {
 		"start": "selenium-standalone start",
-		"selenium": "selenium-standalone",
+		"selenium": "selenium-standalone"
 	}
 
 	
