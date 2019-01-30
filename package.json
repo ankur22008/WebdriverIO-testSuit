@@ -23,7 +23,6 @@
   }
   ,
   "scripts": {
-		//"start": "selenium-standalone start",
 		"selenium": "selenium-standalone",
 	        "test": "./node_modules/.bin/wdio wdio.conf.js"
 	}
