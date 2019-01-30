@@ -51,20 +51,21 @@ exports.config = {
 
 
 
-    capabilities: [{
+    capabilities: [
+        //{
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 1,
+     //   maxInstances: 1,
         //
-        browserName: 'chrome'
-    }
+     //   browserName: 'chrome'
+  //  }
     // ,
     //
-    //     {
-    //         maxInstances: 1,
-    //         browserName: 'firefox'
-    //     }
+         {
+            maxInstances: 1,
+           browserName: 'firefox'
+       }
 
         ],
     //
@@ -206,7 +207,7 @@ exports.config = {
         profile: [],        // <string[]> (name) specify the profile to use
         strict: false,      // <boolean> fail if there are any undefined or pending steps
         //tags: ['@aaa'],           // <string[]> (expression) only execute the features or scenarios with tags matching the expression
-       // tagExpression: '@aaa',
+       tagExpression: '@aaa',
         //  tags: process.env.CUCUMBER_TAGS || "",
         timeout: 20000,     // <number> timeout for step definitions
         ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
