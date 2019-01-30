@@ -3,9 +3,9 @@ exports.config = {
 
 
     
-     hostname: '18.191.83.16',
-    port: 4444,
-     path: '/wd/hub',
+   //  hostname: '18.191.83.16',
+   // port: 4444,
+ //    path: '/wd/hub',
 
 
 
