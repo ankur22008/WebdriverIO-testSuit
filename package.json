@@ -24,7 +24,8 @@
   ,
   "scripts": {
 		"selenium": "selenium-standalone",
-	  "start":"selenium-standalone start && ./node_modules/.bin/wdio wdio.conf.js"
+	  "start":"selenium-standalone start",
+	  "test":"./node_modules/.bin/wdio wdio.conf.js"
 	       
 	}
 
