@@ -59,7 +59,7 @@ exports.config = {
         maxInstances: 1,
         //
        browserName: 'chrome'
-  //  }
+   }
     // 
     //
 //          {
