@@ -52,24 +52,25 @@ exports.config = {
 
 
     capabilities: [
-        {
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
-        maxInstances: 1,
-        //
-            args: ['--no-cache'],
-       browserName: 'chrome',
-             chromeOptions: {
-      binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
-    }
-   }
+//         {
+//         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+//         // grid with only 5 firefox instances available you can make sure that not more than
+//         // 5 instances get started at a time.
+//         maxInstances: 1,
+//         //
+//             args: ['--no-cache'],
+//        browserName: 'chrome',
+//              chromeOptions: {
+//       binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
+//     }
+//    }
     // 
     //
-//          {
-//             maxInstances: 1,
-//            browserName: 'firefox'
-//        }
+{
+            maxInstances: 1,
+          browserName: 'firefox',
+        firefox_binary: '/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/geckodriver/0.23.0-x64-geckodriver'
+    }
 
         ],
     //
