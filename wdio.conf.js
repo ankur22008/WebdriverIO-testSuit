@@ -69,6 +69,8 @@ exports.config = {
 {
             maxInstances: 1,
           browserName: 'firefox',
+    
+    fffff: 'ddddd',
     firefoxOptions: {
         binary: '/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/geckodriver/0.23.0-x64-geckodriver'
 }  }
