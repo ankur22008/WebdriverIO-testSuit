@@ -58,7 +58,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 1,
         //
-            args: ['--no-cache','--headless','--no-sandbox','--disable-dev-shm-usage','--disable-gpu'],
+            args: ['--headless','--no-sandbox','--disable-gpu'],
 
        browserName: 'chrome'
 //              chromeOptions: {
