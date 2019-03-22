@@ -59,10 +59,10 @@ exports.config = {
         maxInstances: 1,
         //
             args: ['--no-cache'],
-       browserName: 'google-chrome-stable',
-             chromeOptions: {
-      binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
-    }
+       browserName: 'google-chrome-stable'
+//              chromeOptions: {
+//       binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
+//     }
    }
     // 
     //
