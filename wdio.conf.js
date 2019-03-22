@@ -61,7 +61,7 @@ exports.config = {
             args: ['--no-cache'],
        browserName: 'chrome',
              chromeOptions: {
-      binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver.exe"
+      binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
     }
    }
     // 
