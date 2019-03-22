@@ -58,7 +58,8 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 1,
         //
-            args: ['--no-cache'],
+            args: ['--no-cache','--headless','--no-sandbox','--disable-dev-shm-usage'],
+
        browserName: 'chrome'
 //              chromeOptions: {
 //       binary: "/var/lib/jenkins/workspace/AnkurTestRun/node_modules/selenium-standalone/.selenium/chromedriver/2.45-x64-chromedriver"
